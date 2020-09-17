@@ -1,0 +1,355 @@
+@media (max-width: 992px) {
+       
+/* body {
+    margin-bottom: 500px;
+} */
+
+#header .nav-link, 
+#header2 .nav-link {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+#header .nav-link:hover::after,
+#header2 .nav-link:hover::after
+{
+    content: "";
+    display: block;
+    border-bottom: 2px white solid;
+    width: 15%;
+    /* margin: auto; */
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+}
+
+#banner {
+    background-color: #628BFC;
+    color: white;   
+    width: 100%;
+height: auto;
+padding-top: 80px;
+}
+
+#banner .img-banner, 
+#banlay .img-banner {
+    width: 428px;
+height: 393px;
+}
+
+#banner .visual-1 {
+    width: 100%;
+height: auto;
+padding-top: 80px;
+}
+
+#banner h1, 
+#banlay h1 {
+    font-weight: bold;
+    font-size-adjust: 35px;
+    font-family: raleway;
+}
+
+#banner .carousel-indicators, 
+#banlay .carousel-indicators {
+    margin-top: 100px;
+}
+
+#ongkir {
+    margin-top: -110px;
+}
+#ongkir .image-resi {
+    width: 339.8px;
+height: auto;
+}
+
+#ongkir .bg-ongkir {
+    padding: 50px;
+    width: 100%;
+height: 100%;
+background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.24);
+border-radius: 20px;
+}
+
+#ongkir .btn-outline-warning, 
+#kolyes .btn-outline-warning,
+#kolreg .btn-outline-warning {
+    width: 150px;
+    height: auto;
+}
+
+#ongkir .btn-warning, 
+#kerjasama .btn-warning,
+#timbangan .btn-warning,
+#pengiriman .btn-warning,
+#pikup .btn-warning,
+#rating .btn-warning,
+#kolyes .btn-warning,
+#kolreg .btn-warning {
+    margin-left: 10px;
+    width: 150px;
+    height: auto;
+    background: #F8A70F;
+    color: white;
+}
+
+#ongkir .btn-warning:hover,
+#kerjasama .btn-warning:hover,
+#timbangan .btn-warning:hover,
+#pengiriman .btn-warning:hover,
+#pikup .btn-warning:hover,
+#rating .btn-warning:hover,
+#kolyes .btn-warning:hover,
+#kolreg .btn-warning:hover {
+    width: 150px;
+    height: auto;
+    background: gray;
+    color: white;
+}
+
+#ongkir .lacakkir {
+    margin-top: 60px;
+}
+
+/* kerjasama */
+#kerjasama, 
+#pengiriman {
+    text-align: center;
+    padding: 100px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background: #F2F1F1;
+}
+
+#kerjasama .t-work,
+#timbangan .c-0,
+#pengiriman .c-2,
+#pikup .c-1 {
+    width: 100%;
+height: auto;
+}
+
+#kerjasama h1, #timbangan h1,
+#pengiriman h1,
+#pikup h1 {
+    padding-top: 85px;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#kerjasama p, #timbangan p, 
+#pengiriman p, #pikup p {
+    font-family: "Raleway";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* timbangan */
+#timbangan, 
+#pikup {
+    text-align: center;
+    padding: 80px;
+    margin-top: 20px;
+}
+
+/* smile */
+#smile {
+    /* background: linear-gradient(89.42deg, #6C85C9 2.64%, #82D0E5 44.77%); */
+    /* background: linear-gradient(to left, #6C85C9, yellow); */
+    background-image: url(../Assets/img/bgg.png);
+    width: 100%;
+    height: 713.23px;
+    text-align: center;
+}
+
+#smile h1 {
+color: white;
+font-size: 40px;
+font-family: "Raleway";
+font-weight: bold;
+
+}
+
+#smile .btn-outline-light {
+    width: 200px;
+}
+
+#smile .bgg {
+width: 807.03px;
+height: auto;
+}
+
+#smile .txt-sml {
+padding: 100px;
+margin-top: 100px;
+}
+
+/* rating */
+#rating {
+    margin-top: 85px;
+    text-align: center;
+}
+
+#rating .content-rate {
+    margin-top: 85px;
+}
+
+#rating .bg-rating {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    margin-top: 20px;
+    padding: 50px;
+    width: 261.83px;
+height: 318.54px;
+background: #FFFFFF;
+box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+#rating .bg-rating h1 {
+font-size: 80px;
+font-weight: bold;
+font-family: "montserrat";
+}
+
+/* footer */
+#footer, #footer-2 {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+background-color: black;
+width: 100%;
+height: auto;
+color: white;
+}
+
+#footer h1, #footer-2 h1 {
+    color: white;
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 35px;
+
+}
+
+#footer p, #footer-2 p {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* banlay */
+#banlay {
+    background-color: #F8A70F;
+    color: white;   
+    width: 100%;
+height: auto;
+padding-top: 80px;
+}
+
+#header2 .navbar {
+    background-color: #F8A70F!important;
+    width: 100%;
+height: auto;
+}
+
+/* jenis layanan */
+#jenislay .bg-yes {
+    margin-top: 85px;
+    padding: 50px;
+    width: 100%;
+height: auto;
+background: #FFFFFF;
+box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+#jenislay .gambarlay{
+    height: 110px;
+    width: auto;
+}
+
+#jenislay h1 {
+    padding-top: 20px;
+}
+
+#model img {
+   margin-top: 85px;
+    width: 100%;
+height: auto;
+/* z-index: 1;
+position: relative; */
+}
+
+/* footer 2 */
+#footer-2 {
+    position: absolute;
+    margin-top: -170px;
+
+}
+
+/* Kolyes */
+#kolyes .bg-yess {
+    margin-top: 50px;
+    padding: 50px;
+    width: 100%;
+height: auto;
+background: #FFFFFF;
+box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+/* Kolreg */
+#kolreg .bg-yess {
+    margin-top: 50px;
+    padding: 50px;
+    width: 100%;
+height: auto;
+background: #FFFFFF;
+box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+#informasi .bg-inf {
+    padding: 150px;
+    background: #E7E7E7;
+    color: #707070;
+}
+
+#informasi .eror {
+    width: auto;
+    height: 113px;
+}
+
+/* ulasanrating */
+#ulas .bg-yess {
+    margin-top: 50px;
+    padding: 50px;
+    width: 100%;
+height: auto;
+background: #FFFFFF;
+box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+#ulas h1 {
+    font-family: "Montserrat";
+    font-style: "mixed";
+    Font-Size: 25px
+}
+
+#contact .map {
+    margin-top: 50px;
+}
+
+
+        }
+    
