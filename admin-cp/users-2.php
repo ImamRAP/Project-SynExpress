@@ -1,5 +1,5 @@
 <h1>Data User 2
-   <a href="#" class="btn btn-outline-info float-right">Tambah User 2</a>
+   <a href="?page=add-users-2" class="btn btn-outline-info float-right">Tambah User 2</a>
 </h1>
 <table class="table table-striped">
    <thead>
