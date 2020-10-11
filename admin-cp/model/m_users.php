@@ -11,6 +11,15 @@ function getUsers()
    return $x;
 }
 
+function getUsersById($id)
+{
+   global $konek;
+   $sql = "SELECT * FROM `users` inner join profil on users.id_user=profil.id_user WHERE users.id_user='$id'";
+   $query = mysqli_query($konek, $sql);
+   $data = mysqli_fetch_assoc($query);
+   return $data;
+}
+
 
 function insertUsers($data)
 {
@@ -30,6 +39,11 @@ function insertUsers($data)
    }
 }
 
+function updateUsers($data)
+{
+   global $konek;
+   $sql = "UPDATE `users` SET `email`='$data[email]',`username`='$data[username]',`password`='$data[password],`status`='$data[status]',`level`='$data[level]',`updated_at`=CURRENT_TIMESTAMP() WHERE id_user='$data[iduser]'";
+}
 
 function deleteUsers($id)
 {
